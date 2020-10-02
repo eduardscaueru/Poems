@@ -1,0 +1,13 @@
+SCAUERU EDUARD 313CD
+
+Task0 - Pentru a realiza consola am avut nevoie de un ciclu infint pana cand se va da quit pentru a iesi din while. Pe masura ce se introduc comezile se realizeaza cerinta fiecarui task.
+
+Task1 - Parcurg poemul caracter cu carecter si verifc cu ajutorul unor functii up si low facute de mine daca este litera mare sau litera mica. In plus tratez cazurile in care o litera se afla inainte sau dupa '\n' (inceput sau sfarsit de vers).
+
+Task2 - Parcurg poemul caracter cu caracter si transform fiecare separator in spatiu. Apoi sterg spatiile consecutive lasand doar unul singur. Iar apoi sterg spatiile de dinainte de '\n'.
+
+Taks3 - Parcurg poemul caracter cu caracter, verific daca caracterul este litera apoi generand un numar random verific daca este mai mic decat probabilitatea introdusa si schimb literele.
+
+Task4 - Parcurg poemul cuvant cu cuvant iar daca are un diminutiv il inlocuiesc. Inlocuirea o fac doar daca cuvantul este independent (la inceput si la sfarsit are separatori) cu ajutorul functiilor din biblioteca string.h modificand o copie a poemului iar apoi copiind totul in poem.
+
+Task5 - Pentru a realiza acest task trebuie sa parcurg poemul vers cu vers cate 4 versuri retinand ultimul cuvant al fiecarui vers cu ajutorul unei functii implementata de mine get_word(). La intalnirea celui de-al patrulea cuvant verific ce rima trebuie realizata. Pentru a construi rima am avut nevoie de functiile match, care verifica daca cele 2 cuvinte rimeaza sau nu, corect_synonym care gaseste cel mai mic sinonim lexicografic, si replace_word care se bazeaza pe task4. La toate rimele se procedeaza similar doar ca se schimba cuvintele in functie de rima aleasa.
